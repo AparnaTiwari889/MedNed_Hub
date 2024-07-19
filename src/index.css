@@ -1,0 +1,45 @@
+/* Base styles */
+#root {
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+  }
+  
+  .body {
+    background-color: rgb(195, 201, 221);
+  }
+  
+  /* Media Queries for responsiveness */
+  @media screen and (max-width: 768px) {
+    /* Styles for screens up to 768px wide */
+    #root {
+      font-size: 14px; /* Adjust font size for smaller screens */
+    }
+  
+    .body {
+      padding: 10px; /* Add padding for smaller screens */
+    }
+  }
+  
+  @media screen and (min-width: 769px) and (max-width: 1024px) {
+    /* Styles for screens between 769px and 1024px wide */
+    #root {
+      font-size: 16px; /* Adjust font size for medium screens */
+    }
+  
+    .body {
+      padding: 20px; /* Adjust padding for medium screens */
+    }
+  }
+  
+  @media screen and (min-width: 1025px) {
+    /* Styles for screens larger than 1024px wide */
+    #root {
+      font-size: 18px; /* Adjust font size for larger screens */
+    }
+  
+    .body {
+      padding: 30px; /* Adjust padding for larger screens */
+    }
+  }
+  
